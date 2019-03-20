@@ -4,7 +4,7 @@ import Home from "./containers/Home";
 import Counter from "./containers/Counter";
 export default (
     <Fragment>
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/counter"  component={Counter}></Route>
+            <Route path="/" exact component={Home}></Route>
+            <Route path="/counter"  component={Counter}></Route>
     </Fragment>
 )
